@@ -4,6 +4,8 @@ html, body {
   background-color: #FBFEF9;
 }
 
+/* Header styles and formating */
+
 .h1style {
   text-align: center;
 }
@@ -17,8 +19,10 @@ html, body {
   text-align: center;
   font-family:sans-serif;
   font-size: 15px;
+  
 }
 
+/* list styles */
 .list-inside li {
   list-style-position: inside;
   text-align: center;
@@ -26,6 +30,12 @@ html, body {
 
 .footer {
   text-align: center;
+}
+
+article {
+  padding: 0 25%;
+  margin: 80px 0;
+  
 }
 
 section {
@@ -37,6 +47,8 @@ a {
 	font-weight: 700;
 	text-decoration: none;	
 }
+
+/* link style */
 a:link { color: #24d600; }
 a:visited { color: #38786a; }
 a:hover { color: #fa7500; }
@@ -53,3 +65,8 @@ h1,h2,h3 {
 
 h1 { font-size: 28px; }
 
+p, li {
+ font-family: 'Montserrat', sans-serif;
+ line-height: 1.5em;
+ margin-bottom: 0;
+}
